@@ -1,0 +1,41 @@
+
+{
+  "expo": {
+    "name": "KapeOrani",
+    "slug": "kapeorani",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+
+    "icon": "./assets/icon.png",
+
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#2A2723"
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Kailangan namin ang lokasyon mo para hanapin ang malapit na kapehan."
+      }
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2A2723"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
